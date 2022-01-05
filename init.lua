@@ -328,8 +328,8 @@ end
 
 if minetest.get_modpath("stairs") ~= nil then
 	stairs.register_stair_and_slab(
-		"date_palm_trunk",
-		"date_palm:trunk",
+		"date_palm_wood",
+		"date_palm:wood",
 		{choppy = 2, oddly_breakable_by_hand = 2, flammable = 2},
 		{"date_palm_wood.png"},
 		S("Date Palm Stair"),
