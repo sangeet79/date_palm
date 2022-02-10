@@ -341,7 +341,7 @@ end
 -- stairsplus/moreblocks
 if minetest.get_modpath("moreblocks") then
 	stairsplus:register_all("date_palm", "wood", "date_palm:wood", {
-		description = "date_palm",
+		description = S("Date Palm"),
 		tiles = {"date_palm_wood.png"},
 		groups = {choppy = 2, oddly_breakable_by_hand = 1, flammable = 3},
 		sounds = default.node_sound_wood_defaults(),
