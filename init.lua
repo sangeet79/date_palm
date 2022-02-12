@@ -18,7 +18,7 @@ local function grow_new_date_palm_tree(pos)
 		return
 	end
 	minetest.remove_node(pos)
-	minetest.place_schematic({x = pos.x-6, y = pos.y, z = pos.z-4}, modpath.."/schematics/date_palm.mts", "0", nil, false)
+	minetest.place_schematic({x = pos.x-4, y = pos.y, z = pos.z-4}, modpath.."/schematics/date_palm.mts", "0", nil, false)
 end
 
 --
